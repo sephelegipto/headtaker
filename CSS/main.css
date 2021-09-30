@@ -1,0 +1,113 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.log{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  
+}
+.logo{
+    text-align: center;
+    
+}
+
+.logo p{
+    letter-spacing: 5px;
+    line-height: 10px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.newspaper {
+    column-count: 3;
+    
+}
+
+.about {
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #2b2c2b, #2a2b2a, #292928, #282827, #272726);
+    color: #fff;
+    
+}
+
+.about h1{
+    opacity: 0;
+    transition: opacity .35s .45s ease-out;
+}
+
+.about h1.is-visible{
+    opacity: 1;
+}
+
+.about h2{
+    opacity: 0;
+    transition: opacity .40s .50s ease-out;
+}
+
+.about h2.is-visible{
+    opacity: 1;
+}
+
+.about .newspaper {
+    opacity: 0;
+    transition: opacity .45s .55s ease-out;
+   
+}
+
+.about .newspaper.is-visible{
+    opacity: 1;
+}
+
+.about .center{
+        text-align: center;
+        
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+
+  }
+
+
+.row .column h2{
+    opacity: 0;
+    transition: opacity .45s .55s ease-out;
+}
+
+.row .column h2.is-visible{
+    opacity: 1;
+}
+
+ 
+
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+
+
+
+  
+
+  
+
